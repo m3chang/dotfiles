@@ -1,0 +1,10 @@
+command_timeout = 1000
+
+[os]
+disabled = false
+
+[time]
+disabled = true
+format = "[$time]($style) "
+time_format = "%H:%M"
+style = "bold yellow"
