@@ -10,3 +10,4 @@ starship init fish | source
 # zoxide
 zoxide init fish | source
 
+set -U fish_greeting
