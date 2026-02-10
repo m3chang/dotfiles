@@ -1,0 +1,14 @@
+#setup lazyvim
+# required
+mv ~/.config/nvim{,.bak}
+
+# optional but recommended
+mv ~/.local/share/nvim{,.bak}
+mv ~/.local/state/nvim{,.bak}
+mv ~/.cache/nvim{,.bak}
+
+git clone https://github.com/LazyVim/starter ~/.config/nvim
+
+####stow
+
+stow fish byobu ghostty starship openbox

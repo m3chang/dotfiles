@@ -1,0 +1,13 @@
+
+xsetroot -cursor_name X_Cursor
+feh --bg-scale ~/etc/earth.jpg
+
+#open ttyd
+ttyd -W fish &
+#sync time 
+sudo ntpdate time.google.com 
+
+#~/projects/uhelper/errbot.sh &
+#~/bin/task.sh &
+#
+polybar &

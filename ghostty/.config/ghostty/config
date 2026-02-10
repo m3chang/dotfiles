@@ -1,0 +1,7 @@
+cursor-style = block
+cursor-style-blink = false
+cursor-color=f8cd02
+shell-integration-features = no-cursor,no-sudo,title
+
+font-family = IntoneMono NF
+font-size = 12

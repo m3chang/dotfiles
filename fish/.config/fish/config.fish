@@ -7,3 +7,6 @@ fish_config theme choose "Dracula Official"
 # Starship 
 starship init fish | source
 
+# zoxide
+zoxide init fish | source
+
